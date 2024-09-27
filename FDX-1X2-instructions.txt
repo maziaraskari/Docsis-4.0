@@ -1,0 +1,169 @@
+
+
+
+
+1 - Change segmentation type to 
+
+      "SegmentationType": "1x2"
+
+2 - add second upstream:
+
+
+,
+              {
+                "admin-state": "up",
+                "port-number": 1,
+                "upstream-physical-channel": [
+                  {
+                    "admin-state": "up",
+                    "channel-index": 0,
+                    "frequency": 16400000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 1,
+                    "frequency": 22800000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 2,
+                    "frequency": 29200000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 3,
+                    "frequency": 35600000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  }
+                ],
+                "yang-ext": {
+                  "ccap-harmonic:ucid-base": 1
+                },
+                "ofdma-channel": [
+                  {
+                    "target-rx-power": "${ofdma-target-rx-power}",
+                    "provisioned-attribute-mask": "bonded",
+                    "ofdma-channel-index": 0,
+                    "yang-ext": {
+                      "ccap-harmonic:mod-prof-management": {
+                        "mer-poll-interval": 5,
+                        "control": true,
+                        "mer-margin": -20,
+                        "mer-hysteresis": 10,
+                        "corrected-fec": 95,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10,
+                        "ignored-mslot-pct": 5,
+                        "min-codewords": 1000
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 73875000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 72300000,
+                      "ccap-harmonic:pre-equalization": {
+                        "set-interval": 40,
+                        "control": true,
+                        "probe-timing-adjust": true
+                      }
+                    },
+                    "transmit-backoff-start": 3,
+                    "transmit-backoff-end": 7,
+                    "ranging-backoff-start": 2,
+                    "ranging-backoff-end": 6,
+                    "admin-state": "up",
+                    "ofdma-chan-template": 16,
+                    "lower-bdry-freq": 39400000,
+                    "upper-bdry-freq": 85000000
+                  }
+                ]
+              }
+
+3 - Duplicate upstream bonding groups for second upstream.   
+
+
+

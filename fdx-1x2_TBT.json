@@ -1,0 +1,3057 @@
+{
+  "apiVersion": "stable.harmonicinc.com/v1",
+  "kind": "Remotephy",
+  "metadata": {
+    "name": "${name}",
+    "namespace": "${namespace}",
+    "resourceVersion": "${resourceVersion}",
+    "SegmentationType": "1x2"
+  },
+  "spec": {
+    "ccap:ccap": {
+      "chassis": {
+        "docsis-phy-profile": [
+          {
+            "ccap-harmonic:yang-ext": {
+              "name": "profile-1"
+            },
+            "phy-index": 1
+          }
+        ],
+        "slot": [
+          {
+            "ds-rf-port": [
+              {
+                "admin-state": "up",
+                "port-number": 0,
+                "down-channel": [
+                  {
+                    "admin-state": "up",
+                    "channel-index": 0,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 387000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-0"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 1,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 393000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-1"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 2,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 399000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-2"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 3,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 405000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-3"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 4,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 411000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-4"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 5,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 417000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-5"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 6,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 423000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-6"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 7,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 429000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-7"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 8,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 435000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-8"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 9,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 441000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-9"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 10,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 447000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-10"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 11,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 453000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-11"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 12,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 459000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-12"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 13,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 465000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-13"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 14,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 471000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-14"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 15,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 477000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-15"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 16,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 957000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-16"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 17,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 963000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-17"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 18,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 969000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-18"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 19,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 975000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-19"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 20,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 981000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-20"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 21,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 987000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-21"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 22,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 993000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-22"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 23,
+                    "docsis-phy-profile-index": 1,
+                    "frequency": 999000000,
+                    "id": 0,
+                    "provisioned-attribute-mask": "bonded low-latency",
+                    "qam-alias": "qam-23"
+                  }
+                ],
+                "ofdm-channel": [
+                  {
+                    "admin-state": "up",
+                    "docs-chan-id": 193,
+                    "lower-bdry-freq": 762000000,
+                    "lower-guard-band-index": 1,
+                    "ofdm-channel-index": 0,
+                    "ofdm-profile": [
+                      {
+                        "ofdm-modulation-default": "qam64",
+                        "ofdm-profile-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "21.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam256",
+                        "ofdm-profile-index": 1,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "27.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam1024",
+                        "ofdm-profile-index": 2,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "34.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam2048",
+                        "ofdm-profile-index": 3,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "37.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam16",
+                        "ofdm-profile-index": 255,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "15.0"
+                        }
+                      }
+                    ],
+                    "plc-blk-freq": 774000000,
+                    "subcarrier-spacing": "50khz",
+                    "upper-bdry-freq": 954000000,
+                    "upper-guard-band-index": 2,
+                    "yang-ext": {
+                      "ccap-harmonic:default-profile": 0,
+                      "ccap-harmonic:query-load": "1.0"
+                    }
+                  },
+                  {
+                    "admin-state": "up",
+                    "docs-chan-id": 194,
+                    "lower-bdry-freq": 1002000000,
+                    "lower-guard-band-index": 1,
+                    "ofdm-channel-index": 1,
+                    "ofdm-profile": [
+                      {
+                        "ofdm-modulation-default": "qam64",
+                        "ofdm-profile-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "21.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam256",
+                        "ofdm-profile-index": 1,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "27.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam1024",
+                        "ofdm-profile-index": 2,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "34.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam2048",
+                        "ofdm-profile-index": 3,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "37.0"
+                        }
+                      },
+                      {
+                        "ofdm-modulation-default": "qam16",
+                        "ofdm-profile-index": 255,
+                        "yang-ext": {
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "15.0"
+                        }
+                      }
+                    ],
+                    "plc-blk-freq": 1086000000,
+                    "subcarrier-spacing": "50khz",
+                    "upper-bdry-freq": 1098000000,
+                    "upper-guard-band-index": 2,
+                    "yang-ext": {
+                      "ccap-harmonic:default-profile": 0,
+                      "ccap-harmonic:query-load": "1.0"
+                    }
+                  }
+                ]
+              }
+            ],
+            "rf-card": {
+              "admin-state": "up",
+              "line-card-name": "rps-23:0"
+            },
+            "slot-number": 5888,
+            "us-rf-port": [
+              {
+                "admin-state": "up",
+                "port-number": 0,
+                "upstream-physical-channel": [
+                  {
+                    "admin-state": "up",
+                    "channel-index": 0,
+                    "frequency": 16400000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 1,
+                    "frequency": 22800000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 2,
+                    "frequency": 29200000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 3,
+                    "frequency": 35600000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  }
+                ],
+                "yang-ext": {
+                  "ccap-harmonic:ucid-base": 1
+                },
+                "ofdma-channel": [
+                  {
+                    "target-rx-power": "${ofdma-target-rx-power}",
+                    "provisioned-attribute-mask": "bonded",
+                    "ofdma-channel-index": 0,
+                    "yang-ext": {
+                      "ccap-harmonic:mod-prof-management": {
+                        "mer-poll-interval": 5,
+                        "control": true,
+                        "mer-margin": -20,
+                        "mer-hysteresis": 10,
+                        "corrected-fec": 95,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10,
+                        "ignored-mslot-pct": 5,
+                        "min-codewords": 1000
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 73875000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 72300000,
+                      "ccap-harmonic:pre-equalization": {
+                        "set-interval": 40,
+                        "control": true,
+                        "probe-timing-adjust": true
+                      }
+                    },
+                    "transmit-backoff-start": 3,
+                    "transmit-backoff-end": 7,
+                    "ranging-backoff-start": 2,
+                    "ranging-backoff-end": 6,
+                    "admin-state": "up",
+                    "ofdma-chan-template": 16,
+                    "lower-bdry-freq": 39400000,
+                    "upper-bdry-freq": 85000000
+                  }
+                ]
+              },
+              {
+                "admin-state": "up",
+                "port-number": 1,
+                "upstream-physical-channel": [
+                  {
+                    "admin-state": "up",
+                    "channel-index": 0,
+                    "frequency": 16400000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 1,
+                    "frequency": 22800000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 271,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 2,
+                    "frequency": 29200000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  },
+                  {
+                    "admin-state": "up",
+                    "channel-index": 3,
+                    "frequency": 35600000,
+                    "power-level": "${us-power-level-adjust}",
+                    "upstream-logical-channel": [
+                      {
+                        "admin-state": "up",
+                        "modulation": 266,
+                        "pre-equalization-enable": true,
+                        "provisioned-attribute-mask": "bonded",
+                        "ranging-backoff-end": 8,
+                        "ranging-backoff-start": 3,
+                        "slot-size": 1,
+                        "transmit-backoff-end": 6,
+                        "transmit-backoff-start": 2,
+                        "upstream-logical-channel-index": 0,
+                        "yang-ext": {
+                          "ccap-harmonic:ingress-cancellation-enable": false
+                        },
+                        "yang-ext3": {
+                          "ccap-harmonic:logical-channel-type-atdma": true
+                        }
+                      }
+                    ],
+                    "width": "6400000"
+                  }
+                ],
+                "yang-ext": {
+                  "ccap-harmonic:ucid-base": 1
+                },
+                "ofdma-channel": [
+                  {
+                    "target-rx-power": "${ofdma-target-rx-power}",
+                    "provisioned-attribute-mask": "bonded",
+                    "ofdma-channel-index": 0,
+                    "yang-ext": {
+                      "ccap-harmonic:mod-prof-management": {
+                        "mer-poll-interval": 5,
+                        "control": true,
+                        "mer-margin": -20,
+                        "mer-hysteresis": 10,
+                        "corrected-fec": 95,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10,
+                        "ignored-mslot-pct": 5,
+                        "min-codewords": 1000
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 73875000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 72300000,
+                      "ccap-harmonic:pre-equalization": {
+                        "set-interval": 40,
+                        "control": true,
+                        "probe-timing-adjust": true
+                      }
+                    },
+                    "transmit-backoff-start": 3,
+                    "transmit-backoff-end": 7,
+                    "ranging-backoff-start": 2,
+                    "ranging-backoff-end": 6,
+                    "admin-state": "up",
+                    "ofdma-chan-template": 16,
+                    "lower-bdry-freq": 39400000,
+                    "upper-bdry-freq": 85000000
+                  }
+                ]
+              }
+            ],
+            "yang-ext1": {
+              "ccap-harmonic:daisy-chain": false,
+              "ccap-harmonic:ptp": {
+                "admin-state": "up",
+                "domain": 44
+              },
+              "ccap-harmonic:rpd-description": "rpd-23:0",
+              "ccap-harmonic:rpd-mac-address": "$DeviceAlias$",
+              "ccap-harmonic:rpd-name": "PAHQD90301",
+              "ccap-harmonic:fdx-resource": [
+                {
+                  "admin-state": "up",
+                  "allocated-spectrum": 384,
+                  "ccap-harmonic:rba-schedule": "rba1",
+                  "fdx-ofdm-channel": [
+                    {
+                      "admin-state": "down",
+                      "cyclic-prefix": 512,
+                      "default-profile": 0,
+                      "description": "108204X1",
+                      "fdx-ofdm-channel-index": 0,
+                      "lower-guard-band-index": 1,
+                      "ofdm-profile": [
+                        {
+                          "ofdm-modulation-default": "qam64",
+                          "ofdm-profile-index": 0,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "21.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam256",
+                          "ofdm-profile-index": 1,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "27.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam1024",
+                          "ofdm-profile-index": 2,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "34.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam2048",
+                          "ofdm-profile-index": 3,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "37.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam16",
+                          "ofdm-profile-index": 255,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "15.0"
+                        }
+                      ],
+                      "pilot-scale-factor": 48,
+                      "plc-blk-freq": 145000000,
+                      "query-load": "0.1",
+                      "query-period": 100,
+                      "rf-mute": false,
+                      "rolloff-period": 192,
+                      "subcarrier-spacing": "50khz",
+                      "time-interleaver-depth": 8,
+                      "unfit-profile": 0,
+                      "upper-guard-band-index": 2
+                    },
+                    {
+                      "admin-state": "down",
+                      "cyclic-prefix": 512,
+                      "default-profile": 0,
+                      "description": "204300X2",
+                      "fdx-ofdm-channel-index": 1,
+                      "lower-guard-band-index": 1,
+                      "ofdm-profile": [
+                        {
+                          "ofdm-modulation-default": "qam64",
+                          "ofdm-profile-index": 0,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "21.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam256",
+                          "ofdm-profile-index": 1,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "27.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam1024",
+                          "ofdm-profile-index": 2,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "34.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam2048",
+                          "ofdm-profile-index": 3,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "37.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam16",
+                          "ofdm-profile-index": 255,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "15.0"
+                        }
+                      ],
+                      "pilot-scale-factor": 48,
+                      "plc-blk-freq": 246000000,
+                      "query-load": "0.1",
+                      "query-period": 100,
+                      "rf-mute": false,
+                      "rolloff-period": 192,
+                      "subcarrier-spacing": "50khz",
+                      "time-interleaver-depth": 8,
+                      "unfit-profile": 0,
+                      "upper-guard-band-index": 2
+                    },
+                    {
+                      "admin-state": "down",
+                      "cyclic-prefix": 512,
+                      "default-profile": 0,
+                      "description": "300396X3",
+                      "fdx-ofdm-channel-index": 2,
+                      "lower-guard-band-index": 1,
+                      "ofdm-profile": [
+                        {
+                          "ofdm-modulation-default": "qam64",
+                          "ofdm-profile-index": 0,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "21.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam256",
+                          "ofdm-profile-index": 1,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "27.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam1024",
+                          "ofdm-profile-index": 2,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "34.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam2048",
+                          "ofdm-profile-index": 3,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "37.0"
+                        },
+                        {
+                          "ofdm-modulation-default": "qam16",
+                          "ofdm-profile-index": 255,
+                          "ccap-harmonic:hysteresis": "1.0",
+                          "ccap-harmonic:threshold": "15.0"
+                        }
+                      ],
+                      "pilot-scale-factor": 48,
+                      "plc-blk-freq": 318000000,
+                      "query-load": "0.1",
+                      "query-period": 100,
+                      "rf-mute": false,
+                      "rolloff-period": 192,
+                      "subcarrier-spacing": "50khz",
+                      "time-interleaver-depth": 8,
+                      "unfit-profile": 0,
+                      "upper-guard-band-index": 2
+                    }
+                  ],
+                  "fdx-ofdm-exclusions": [
+                    {
+                      "start-freq": 121400000,
+                      "end-freq": 121600000
+                    },
+                    {
+                      "start-freq": 137500000,
+                      "end-freq": 138500000
+                    },
+                    {
+                      "start-freq": 156750000,
+                      "end-freq": 156850000
+                    },
+                    {
+                      "start-freq": 384000000,
+                      "end-freq": 396000000
+                    }
+                  ],
+                  "fdx-ofdma-channel": [
+                    {
+                      "provisioned-attribute-mask": "bonded",
+                      "fdx-ofdma-channel-index": 0,
+                      "ccap-harmonic:mod-prof-management": {
+                        "control": true,
+                        "corrected-fec": 95,
+                        "ignored-mslot-pct": 8,
+                        "mer-hysteresis": 10,
+                        "mer-margin": -20,
+                        "mer-poll-interval": 5,
+                        "min-codewords": 1000,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 195575000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 194000000,
+                      "ccap-harmonic:pre-equalization": {
+                        "control": true,
+                        "probe-timing-adjust": true,
+                        "set-interval": 40
+                      },
+                      "admin-state": "up",
+                      "power-adjust": 0,
+                      "ofdma-chan-template": 17
+                    },
+                    {
+                      "provisioned-attribute-mask": "bonded",
+                      "fdx-ofdma-channel-index": 1,
+                      "ccap-harmonic:mod-prof-management": {
+                        "control": true,
+                        "corrected-fec": 95,
+                        "ignored-mslot-pct": 8,
+                        "mer-hysteresis": 10,
+                        "mer-margin": -20,
+                        "mer-poll-interval": 5,
+                        "min-codewords": 1000,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 291575000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 290000000,
+                      "ccap-harmonic:pre-equalization": {
+                        "control": true,
+                        "probe-timing-adjust": true,
+                        "set-interval": 40
+                      },
+                      "admin-state": "up",
+                      "power-adjust": 0,
+                      "ofdma-chan-template": 17
+                    },
+                    {
+                      "provisioned-attribute-mask": "bonded",
+                      "fdx-ofdma-channel-index": 2,
+                      "ccap-harmonic:mod-prof-management": {
+                        "control": true,
+                        "corrected-fec": 95,
+                        "ignored-mslot-pct": 8,
+                        "mer-hysteresis": 10,
+                        "mer-margin": -20,
+                        "mer-poll-interval": 5,
+                        "min-codewords": 1000,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 339575000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 338000000,
+                      "ccap-harmonic:pre-equalization": {
+                        "control": true,
+                        "probe-timing-adjust": true,
+                        "set-interval": 40
+                      },
+                      "admin-state": "up",
+                      "power-adjust": 0,
+                      "ofdma-chan-template": 17
+                    },
+                    {
+                      "provisioned-attribute-mask": "bonded",
+                      "fdx-ofdma-channel-index": 3,
+                      "ccap-harmonic:mod-prof-management": {
+                        "control": true,
+                        "corrected-fec": 95,
+                        "ignored-mslot-pct": 8,
+                        "mer-hysteresis": 10,
+                        "mer-margin": -20,
+                        "mer-poll-interval": 5,
+                        "min-codewords": 1000,
+                        "uncorrected-fec": 1,
+                        "unfit-period-minutes": 10
+                      },
+                      "ccap-harmonic:initial-ranging-frequency-hz": 439575000,
+                      "ccap-harmonic:fine-ranging-frequency-hz": 420000000,
+                      "ccap-harmonic:pre-equalization": {
+                        "control": true,
+                        "probe-timing-adjust": true,
+                        "set-interval": 40
+                      },
+                      "admin-state": "down",
+                      "power-adjust": 0,
+                      "ofdma-chan-template": 17
+                    }
+                  ],
+                  "fdx-ofdma-exclusions": [
+                    {
+                      "start-freq": 121400000,
+                      "end-freq": 121600000
+                    },
+                    {
+                      "start-freq": 137500000,
+                      "end-freq": 138500000
+                    },
+                    {
+                      "start-freq": 156750000,
+                      "end-freq": 156850000
+                    },
+                    {
+                      "start-freq": 384000000,
+                      "end-freq": 396000000
+                    }
+                  ],
+                  "resource-index": 0,
+                  "sub-band-config": [
+                    {
+                      "direction": "upstream",
+                      "subband-id": 0
+                    },
+                    {
+                      "direction": "upstream",
+                      "subband-id": 1
+                    }
+                  ],
+                  "ccap-harmonic:extended-upstream-commanded-power": {
+                    "p-limit-adjust": 70,
+                    "power-adjust-continue": 9,
+                    "power-adjust-threshold": 2,
+                    "ranging-abort-max-tx": false
+                  },
+                  "ccap-harmonic:legacy-exclude": {
+                    "end-freq": 762000000,
+                    "start-freq": 108000000
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "docsis": {
+        "docs-dsg": {
+          "client-id-config-list": [
+            {
+              "client-id-list-index": 2,
+              "dsg-client": [
+                {
+                  "client-id-index": 1,
+                  "client-id-value": "000000000002"
+                }
+              ]
+            },
+            {
+              "client-id-list-index": 10,
+              "dsg-client": [
+                {
+                  "client-id-index": 1,
+                  "client-id-value": "000000000700",
+                  "dsg-client-id-type": "ca-system-id"
+                }
+              ]
+            },
+            {
+              "client-id-list-index": 11,
+              "dsg-client": [
+                {
+                  "client-id-index": 1,
+                  "client-id-value": "000000000701",
+                  "dsg-client-id-type": "ca-system-id"
+                }
+              ]
+            }
+          ],
+          "dsg-classifier": [
+            {
+              "destination-ip": "${SCTE-18 EAS Multicast IP}",
+              "dsg-classifier-id": 200,
+              "priority": 1,
+              "source-ip": "${SCTE-18 EAS Encoder IP}/32",
+              "tunnel-index": 20
+            },
+            {
+              "destination-ip": "${EMM Multicast IP}",
+              "dsg-classifier-id": 1000,
+              "priority": 1,
+              "source-ip": "${DSG RADD Device IP}/32",
+              "tunnel-index": 100
+            },
+            {
+              "destination-ip": "${SI Multicast IP}",
+              "dsg-classifier-id": 1500,
+              "priority": 1,
+              "source-ip": "${DSG RADD Device IP}/32",
+              "tunnel-index": 150
+            }
+          ],
+          "dsg-downstream": [
+            {
+              "docsis-down-channel-ref": {
+                "down-channel": 3,
+                "ds-rf-port": 0,
+                "slot": 5888
+              },
+              "dsg-downstream-index": 302120963,
+              "enable-dcd": true,
+              "timer-config-index": 1
+            },
+            {
+              "docsis-down-channel-ref": {
+                "down-channel": 11,
+                "ds-rf-port": 0,
+                "slot": 5888
+              },
+              "dsg-downstream-index": 302120971,
+              "enable-dcd": true,
+              "timer-config-index": 1
+            },
+            {
+              "docsis-down-channel-ref": {
+                "down-channel": 19,
+                "ds-rf-port": 0,
+                "slot": 5888
+              },
+              "dsg-downstream-index": 302120979,
+              "enable-dcd": true,
+              "timer-config-index": 1
+            },
+            {
+              "docsis-down-channel-ref": {
+                "down-channel": 16,
+                "ds-rf-port": 0,
+                "slot": 5888
+              },
+              "dsg-downstream-index": 302120976,
+              "enable-dcd": true,
+              "timer-config-index": 1
+            }
+          ],
+          "dsg-timer-config": [
+            {
+              "one-way-t-dsg-4": 150,
+              "oper-t-dsg-2": 150,
+              "timer-config-index": 1,
+              "two-way-t-dsg-3": 10
+            }
+          ],
+          "dsg-tunnel-config": [
+            {
+              "client-id-list-index": 10,
+              "dsg-tunnel-config-index": 100,
+              "mac-address": "01:00:00:00:01:00",
+              "service-class-name": "dsg",
+              "tunnel-grp-index": 100
+            },
+            {
+              "client-id-list-index": 2,
+              "dsg-tunnel-config-index": 20,
+              "mac-address": "01:00:00:00:00:20",
+              "service-class-name": "dsg",
+              "tunnel-grp-index": 20
+            },
+            {
+              "client-id-list-index": 11,
+              "dsg-tunnel-config-index": 150,
+              "mac-address": "01:00:00:00:01:50",
+              "service-class-name": "dsg",
+              "tunnel-grp-index": 150
+            }
+          ],
+          "tunnel-group-to-channel-list": [
+            {
+              "tunnel-group-channel": [
+                {
+                  "dsg-downstream-index": 302120963,
+                  "tunnel-group-channel-index": 302120963
+                },
+                {
+                  "dsg-downstream-index": 302120971,
+                  "tunnel-group-channel-index": 302120971
+                },
+                {
+                  "dsg-downstream-index": 302120979,
+                  "tunnel-group-channel-index": 302120979
+                },
+                {
+                  "dsg-downstream-index": 302120976,
+                  "tunnel-group-channel-index": 302120976
+                }
+              ],
+              "tunnel-group-index": 100
+            },
+            {
+              "tunnel-group-channel": [
+                {
+                  "dsg-downstream-index": 302120963,
+                  "tunnel-group-channel-index": 302120963
+                },
+                {
+                  "dsg-downstream-index": 302120971,
+                  "tunnel-group-channel-index": 302120971
+                },
+                {
+                  "dsg-downstream-index": 302120979,
+                  "tunnel-group-channel-index": 302120979
+                },
+                {
+                  "dsg-downstream-index": 302120976,
+                  "tunnel-group-channel-index": 302120976
+                }
+              ],
+              "tunnel-group-index": 20
+            },
+            {
+              "tunnel-group-channel": [
+                {
+                  "dsg-downstream-index": 302120963,
+                  "tunnel-group-channel-index": 302120963
+                },
+                {
+                  "dsg-downstream-index": 302120971,
+                  "tunnel-group-channel-index": 302120971
+                },
+                {
+                  "dsg-downstream-index": 302120979,
+                  "tunnel-group-channel-index": 302120979
+                },
+                {
+                  "dsg-downstream-index": 302120976,
+                  "tunnel-group-channel-index": 302120976
+                }
+              ],
+              "tunnel-group-index": 150
+            }
+          ]
+        },
+        "docs-mac-domain": {
+          "mac-domain": [
+            {
+              "admin-state": "up",
+              "invited-ranging-attempts": 1,
+              "ip-provisioning-mode": "ipv6-only",
+              "mac-domain-name": "23:0/0.0",
+              "md-bpi-config": {
+                "default-authentication-lifetime": 0,
+                "default-tek-lifetime": 0
+              },
+              "source-address-verification-enabled": true,
+              "sync-interval": 10,
+              "ucd-interval": 1000,
+              "up-down-trap-enabled": true,
+              "upstream-bonding-group": [
+                {
+                  "bonding-group-name": "Us23:0/0:U2A",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/0:U2B",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/0:U4A",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/0:U5O",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "ofdma-channel-ref": [
+                    {
+                      "ofdma-channel": 0,
+                      "slot": 5888,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/0:U8X",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 0
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "ofdma-channel-ref": [
+                    {
+                      "ofdma-channel": 0,
+                      "slot": 5888,
+                      "us-rf-port": 0
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up",
+                    "ccap-harmonic:fdx-ofdma-ref": [
+                      {
+                        "fdx-ofdma-channel-index": 0,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      },
+                      {
+                        "fdx-ofdma-channel-index": 1,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      },
+                      {
+                        "fdx-ofdma-channel-index": 2,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      }
+                    ]
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/1:U2A",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/1:U2B",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/1:U4A",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/1:U5O",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "ofdma-channel-ref": [
+                    {
+                      "ofdma-channel": 0,
+                      "slot": 5888,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up"
+                  }
+                },
+                {
+                  "bonding-group-name": "Us23:0/1:U8X",
+                  "upstream-logical-channel-ref": [
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 0,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 1,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 2,
+                      "us-rf-port": 1
+                    },
+                    {
+                      "slot": 5888,
+                      "upstream-logical-channel": 0,
+                      "upstream-physical-channel": 3,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "ofdma-channel-ref": [
+                    {
+                      "ofdma-channel": 0,
+                      "slot": 5888,
+                      "us-rf-port": 1
+                    }
+                  ],
+                  "yang-ext": {
+                    "ccap-harmonic:admin-state": "up",
+                    "ccap-harmonic:fdx-ofdma-ref": [
+                      {
+                        "fdx-ofdma-channel-index": 0,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      },
+                      {
+                        "fdx-ofdma-channel-index": 1,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      },
+                      {
+                        "fdx-ofdma-channel-index": 2,
+                        "fdx-resource-index": 0,
+                        "slot": 5888
+                      }
+                    ]
+                  }
+                }
+              ],
+              "upstream-frequency-range": "extended",
+              "upstream-physical-channel-ref": [
+                {
+                  "slot": 5888,
+                  "upstream-physical-channel": 0,
+                  "us-rf-port": 0
+                },
+                {
+                  "slot": 5888,
+                  "upstream-physical-channel": 1,
+                  "us-rf-port": 0
+                },
+                {
+                  "slot": 5888,
+                  "upstream-physical-channel": 2,
+                  "us-rf-port": 0
+                },
+                {
+                  "slot": 5888,
+                  "upstream-physical-channel": 3,
+                  "us-rf-port": 0
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:bundle": 1,
+                "ccap-harmonic:downstream-load-balancing-2.0-enabled": false,
+                "ccap-harmonic:dsg": {
+                  "timer": 1,
+                  "tg": [
+                    {
+                      "group-id": 20
+                    },
+                    {
+                      "group-id": 100
+                    },
+                    {
+                      "group-id": 150
+                    }
+                  ]
+                },
+                "ccap-harmonic:map-advance-extra-usec": 100,
+                "ccap-harmonic:cnt-us-partial-failure-reset-cm": -1,
+                "ccap-harmonic:init-im-insertion": {
+                  "grace-period": 600,
+                  "interval": 50,
+                  "enabled": true
+                },
+                "ccap-harmonic:ds-ofdm-non-primary-channel-ref": [
+                  {
+                    "ds-rf-port": 0,
+                    "ofdm-channel": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "ds-rf-port": 0,
+                    "ofdm-channel": 1,
+                    "slot": 5888
+                  }
+                ],
+                "ccap-harmonic:dbc-active-call-enabled": false,
+                "ccap-harmonic:fdx-d3-compatibility": true,
+                "ccap-harmonic:fdx-ofdma-list": [
+                  {
+                    "fdx-ofdma-channel-index": 0,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdma-channel-index": 1,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdma-channel-index": 2,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdma-channel-index": 3,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  }
+                ],
+                "ccap-harmonic:fdx-ofdm-list": [
+                  {
+                    "fdx-ofdm-channel-index": 0,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 1,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 2,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  }
+                ]
+              },
+              "us-ofdma-channel-list": [
+                {
+                  "ofdma-channel": 0,
+                  "slot": 5888,
+                  "us-rf-port": 0
+                }
+              ],
+              "non-primary-capable-ds": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "primary-capable-ds": [
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ]
+            }
+          ],
+          "downstream-bonding-group": [
+            {
+              "bonding-group-name": "Ds23:0/0:D5",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                },
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 1,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D16A",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D16B",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D24A",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D24B",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                },
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 1,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4A",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4B",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4C",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4D",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4E",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D4F",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D8A",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D8B",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D8C",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D24C",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 1,
+              "dsid-resequencing-warning-threshold": 1,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up"
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D10A",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 0,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 1,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 2,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 3,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 4,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 5,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 6,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 7,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 130,
+              "dsid-resequencing-warning-threshold": 130,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                },
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 1,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up",
+                "ccap-harmonic:fdx-ofdm-ref": [
+                  {
+                    "fdx-ofdm-channel-index": 0,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 1,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 2,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  }
+                ]
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D10B",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 8,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 9,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 10,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 11,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 12,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 13,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 14,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 15,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 130,
+              "dsid-resequencing-warning-threshold": 130,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                },
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 1,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up",
+                "ccap-harmonic:fdx-ofdm-ref": [
+                  {
+                    "fdx-ofdm-channel-index": 0,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 1,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 2,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  }
+                ]
+              }
+            },
+            {
+              "bonding-group-name": "Ds23:0/0:D10C",
+              "docsis-down-channel-ref": [
+                {
+                  "down-channel": 16,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 17,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 18,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 19,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 20,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 21,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 22,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                },
+                {
+                  "down-channel": 23,
+                  "ds-rf-port": 0,
+                  "slot": 5888
+                }
+              ],
+              "downstream-bonding-mac-domain-name": "23:0/0.0",
+              "dsid-resequencing-wait-time": 130,
+              "dsid-resequencing-warning-threshold": 130,
+              "ofdm-channel-ref": [
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 0,
+                  "slot": 5888
+                },
+                {
+                  "ds-rf-port": 0,
+                  "ofdm-channel": 1,
+                  "slot": 5888
+                }
+              ],
+              "yang-ext": {
+                "ccap-harmonic:admin-state": "up",
+                "ccap-harmonic:fdx-ofdm-ref": [
+                  {
+                    "fdx-ofdm-channel-index": 0,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 1,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  },
+                  {
+                    "fdx-ofdm-channel-index": 2,
+                    "fdx-resource-index": 0,
+                    "slot": 5888
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ofdm-guard-band": [
+          {
+            "guard-band-index": 1,
+            "guard-band-width": 1000000
+          },
+          {
+            "guard-band-index": 2,
+            "guard-band-width": 1000000
+          }
+        ],
+        "yang-ext": {
+          "ccap-harmonic:dsi": {
+            "cre-ipv6-address": "${gcp-gateway-address}/${gcp-mask}",
+            "cre-vlan-id": 0,
+            "gcp-ipv6-address": "${gcp-ip-address}",
+            "lcce-gw-ipv6-address": "${lcce-gateway}/${lcce-mask}"
+          },
+          "ccap-harmonic:provisioning": {
+            "cre-ip-address": "${nsi-ipv4-gateway}/${nsi-ipv4-subnet-mask}",
+            "cre-ipv6-address": "${nsi-ipv6-gateway}/${nsi-ipv6-subnet-mask}",
+            "cre-vlan-id": 0
+          },
+          "ccap-harmonic:fdx-rba-schedule": [
+            {
+              "fdx-rba-schedule-step": [
+                {
+                  "duration-msec": 10000,
+                  "fdx-direction-set": "UUU",
+                  "step-index": 0
+                }
+              ],
+              "rba-schedule-name": "rba1"
+            },
+            {
+              "fdx-rba-schedule-step": [
+                {
+                  "duration-msec": 2000,
+                  "fdx-direction-set": "UUU",
+                  "step-index": 0
+                },
+                {
+                  "duration-msec": 3000,
+                  "fdx-direction-set": "DDD",
+                  "step-index": 1
+                }
+              ],
+              "rba-schedule-name": "rba2"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
