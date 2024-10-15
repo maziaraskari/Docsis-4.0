@@ -6,7 +6,7 @@ Instructions:
  1. Remove 2nd D3.1 ofdma channel :  "docs-chan-id": 194,
 
                   {
-                    "admin-state": "up"
+                    "admin-state": "up",
                     "docs-chan-id": 194,
                     "lower-bdry-freq": 815000000,
                     "lower-guard-band-index": 1,
